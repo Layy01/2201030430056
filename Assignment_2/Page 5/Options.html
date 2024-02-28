@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What do you want to translate?</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('background.jpg'); /* Path to your background image */
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .form-container {
+        background-color: #fff;
+        padding: 40px; /* Increased padding */
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 400px; /* Increased width */
+    }
+
+    h2 {
+        margin-top: 0;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px; /* Increased margin */
+    }
+
+    label {
+        display: block;
+        margin-bottom: 15px; /* Increased margin */
+    }
+
+    input[type="radio"] {
+        margin-right: 10px; /* Increased margin */
+    }
+
+    button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 15px 30px; /* Increased padding */
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px; /* Increased font size */
+        width: 100%; /* Make button full width */
+        box-sizing: border-box; /* Include padding and border in the width */
+    }
+
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>What do you want to translate?</h2>
+    <form action="#" method="post">
+        <label>
+            <input type="radio" name="content_type" value="Literature" checked> Literature
+        </label>
+        <label>
+            <input type="radio" name="content_type" value="Article"> Article
+        </label>
+        <label>
+            <input type="radio" name="content_type" value="website"> Website
+        </label>
+        <br><br>
+        <button type="submit" value="Submit"><a href="../page 4/p4.html"></a> Submit
+    </form>
+</div>
+
+</body>
+</html>
